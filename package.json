@@ -2,7 +2,7 @@
   "name": "watson",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "start": "ts-node src/index",
@@ -10,32 +10,22 @@
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
-  "importSort": {
-    ".ts, .tsx": {
-      "parser": "typescript",
-      "style": "module-scoped"
-    }
-  },
   "eslintIgnore": [
     "/**/*.js"
   ],
   "devDependencies": {
     "@types/jest": "26.0.15",
     "@types/node": "14.14.3",
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "4.5.0",
-    "eslint": "^8.0.1",
-    "import-sort": "6.0.0",
-    "import-sort-cli": "6.0.0",
-    "import-sort-parser-typescript": "6.0.0",
-    "import-sort-style-module-scoped": "1.0.3",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
     "jest": "26.6.1",
     "ts-jest": "26.4.2",
     "ts-node": "9.0.0",
-    "typescript": "*",
-    "eslint-config-standard-with-typescript": "^43.0.1",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
-    "eslint-plugin-promise": "^6.0.0"
+    "typescript": "*"
+  },
+  "author": {
+    "name": "leonardo kopeski",
+    "email": "leonardokop22@gmail.com"
   }
 }
