@@ -1,11 +1,11 @@
 {
-  "name": "watson",
+  "name": "name",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "ts-node src/index",
+    "start": "ts-node src/index.ts --project tsconfig.json",
     "build": "tsc",
     "test": "jest",
     "test:watch": "jest --watchAll"
